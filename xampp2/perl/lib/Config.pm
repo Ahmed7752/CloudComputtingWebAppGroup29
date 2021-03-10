@@ -83,7 +83,7 @@ sub AUTOLOAD {
 
 # tie returns the object, so the value returned to require will be true.
 tie %Config, 'Config', {
-    archlibexp => 'D:\\pc_storage_lfs\\computer-science-original\\First-Year\\Database and Web App Dev\\xampp2\\perl\\lib',
+    archlibexp => 'D:\\computer-science-repo\\Third-Year\\Cloud-Computing\\CloudComputtingWebAppGroup29\\xampp2\\perl\\lib',
     archname => 'MSWin32-x86-multi-thread',
     cc => 'gcc',
     d_readlink => undef,
@@ -95,14 +95,14 @@ tie %Config, 'Config', {
     inc_version_list => '',
     intsize => '4',
     ldlibpthname => '',
-    libpth => 'D:\\pc_storage_lfs\\computer-science-original\\First-Year\\Database and Web App Dev\\xampp2\\c\\lib \\xampp\\c\\i686-w64-mingw32\\lib',
+    libpth => 'D:\\computer-science-repo\\Third-Year\\Cloud-Computing\\CloudComputtingWebAppGroup29\\xampp2\\c\\lib \\xampp\\c\\i686-w64-mingw32\\lib',
     osname => 'MSWin32',
     osvers => '4.0',
     path_sep => ';',
-    privlibexp => 'D:\\pc_storage_lfs\\computer-science-original\\First-Year\\Database and Web App Dev\\xampp2\\perl\\lib',
-    scriptdir => 'D:\\pc_storage_lfs\\computer-science-original\\First-Year\\Database and Web App Dev\\xampp2\\perl\\bin',
-    sitearchexp => 'D:\\pc_storage_lfs\\computer-science-original\\First-Year\\Database and Web App Dev\\xampp2\\perl\\site\\lib',
-    sitelibexp => 'D:\\pc_storage_lfs\\computer-science-original\\First-Year\\Database and Web App Dev\\xampp2\\perl\\site\\lib',
+    privlibexp => 'D:\\computer-science-repo\\Third-Year\\Cloud-Computing\\CloudComputtingWebAppGroup29\\xampp2\\perl\\lib',
+    scriptdir => 'D:\\computer-science-repo\\Third-Year\\Cloud-Computing\\CloudComputtingWebAppGroup29\\xampp2\\perl\\bin',
+    sitearchexp => 'D:\\computer-science-repo\\Third-Year\\Cloud-Computing\\CloudComputtingWebAppGroup29\\xampp2\\perl\\site\\lib',
+    sitelibexp => 'D:\\computer-science-repo\\Third-Year\\Cloud-Computing\\CloudComputtingWebAppGroup29\\xampp2\\perl\\site\\lib',
     so => 'dll',
     useithreads => 'define',
     usevendorprefix => 'define',

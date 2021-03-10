@@ -26,8 +26,8 @@ define('PEAR_IGNORE_BACKTRACE', 1);
  */
 //the space is needed for windows include paths with trailing backslash
 // http://pear.php.net/bugs/bug.php?id=19482
-if ('D:\pc_storage_lfs\computer-science-original\First-Year\Database and Web App Dev\xampp2\php\pear ' != '@'.'include_path'.'@ ') {
-    ini_set('include_path', trim('D:\pc_storage_lfs\computer-science-original\First-Year\Database and Web App Dev\xampp2\php\pear '). PATH_SEPARATOR .  get_include_path());
+if ('D:\computer-science-repo\Third-Year\Cloud-Computing\CloudComputtingWebAppGroup29\xampp2\php\pear ' != '@'.'include_path'.'@ ') {
+    ini_set('include_path', trim('D:\computer-science-repo\Third-Year\Cloud-Computing\CloudComputtingWebAppGroup29\xampp2\php\pear '). PATH_SEPARATOR .  get_include_path());
     $raw = false;
 } else {
     // this is a raw, uninstalled pear, either a cvs checkout, or php distro

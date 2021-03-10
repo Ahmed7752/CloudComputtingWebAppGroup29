@@ -5,7 +5,7 @@ $item_total = 0;
 ?>
 <div class="container">
     <div class="col-md-12">
-        <div class="card shadow">    
+        <div class="card shadow">
             <div class="cart-results">
                 <table cellpadding="10" cellspacing="1">
                     <tbody>
@@ -21,7 +21,7 @@ foreach ($_SESSION["cart_item"] as $item){
                         <tr>
                             <td><strong><?php echo $item["product_title"]; ?></strong></td>
                             <td><?php echo $item["quantity"]; ?></td>
-                            <td><?php echo "$".$item["price"]; ?></td>
+                            <td><?php echo "£".$item["price"]; ?></td>
                             <td><a href="cart.php?action=remove&id=<?php echo $item["id"]; ?>" class="btnRemoveAction">Remove Item</a></td>
                         </tr>
 <?php
@@ -29,7 +29,7 @@ $item_total += ($item["price"]*$item["quantity"]);
 }
 ?>
                         <tr>
-                            <td colspan="3" align=right><strong>Total:</strong> <?php echo "$".$item_total; ?></td>
+                            <td colspan="3" align=right><strong>Total:</strong> <?php echo "£".$item_total; ?></td>
                         </tr>
                     </tbody>
                 </table>

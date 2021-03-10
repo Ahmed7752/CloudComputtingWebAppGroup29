@@ -1,4 +1,4 @@
-#!D:\pc_storage_lfs\computer-science-original\First-Year\Database and Web App Dev\xampp2\php\.\php.exe
+#!D:\computer-science-repo\Third-Year\Cloud-Computing\CloudComputtingWebAppGroup29\xampp2\php\.\php.exe
 <?php
 /* PHPUnit
  *
@@ -37,10 +37,10 @@
 
 define('PHPUnit_MAIN_METHOD', 'PHPUnit_TextUI_Command::main');
 
-if (strpos('D:\pc_storage_lfs\computer-science-original\First-Year\Database and Web App Dev\xampp2\php\.\php.exe', '@php_bin') === 0) {
+if (strpos('D:\computer-science-repo\Third-Year\Cloud-Computing\CloudComputtingWebAppGroup29\xampp2\php\.\php.exe', '@php_bin') === 0) {
     require dirname(__FILE__) . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
 } else {
-    require 'D:\pc_storage_lfs\computer-science-original\First-Year\Database and Web App Dev\xampp2\php\pear' . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
+    require 'D:\computer-science-repo\Third-Year\Cloud-Computing\CloudComputtingWebAppGroup29\xampp2\php\pear' . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
 }
 
 PHPUnit_TextUI_Command::main();

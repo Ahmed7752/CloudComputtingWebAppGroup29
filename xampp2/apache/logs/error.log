@@ -2612,3 +2612,13 @@
 [Wed Mar 10 15:10:40.989596 2021] [mpm_winnt:notice] [pid 15596:tid 636] AH00354: Child: Starting 150 worker threads.
 [Wed Mar 10 15:13:12.719957 2021] [php7:warn] [pid 15596:tid 1872] [client 127.0.0.1:53485] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'amazondb' in D:\\pc_storage_lfs\\computer-science-original\\First-Year\\Database and Web App Dev\\xampp2\\htdocs\\crud\\create.php on line 8, referer: http://localhost/crud/
 [Wed Mar 10 15:13:21.975595 2021] [php7:notice] [pid 15596:tid 1904] [client 127.0.0.1:53497] PHP Notice:  Undefined index:  in D:\\pc_storage_lfs\\computer-science-original\\First-Year\\Database and Web App Dev\\xampp2\\htdocs\\test\\index.php on line 4, referer: http://localhost/
+[Wed Mar 10 15:38:06.363384 2021] [ssl:warn] [pid 22484:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 10 15:38:06.461902 2021] [core:warn] [pid 22484:tid 628] AH00098: pid file D:/computer-science-repo/Third-Year/Cloud-Computing/CloudComputtingWebAppGroup29/xampp2/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 10 15:38:06.463902 2021] [ssl:warn] [pid 22484:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 10 15:38:06.594426 2021] [mpm_winnt:notice] [pid 22484:tid 628] AH00455: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 configured -- resuming normal operations
+[Wed Mar 10 15:38:06.594426 2021] [mpm_winnt:notice] [pid 22484:tid 628] AH00456: Apache Lounge VC15 Server built: Aug 15 2018 11:10:17
+[Wed Mar 10 15:38:06.594426 2021] [core:notice] [pid 22484:tid 628] AH00094: Command line: 'd:\\computer-science-repo\\third-year\\cloud-computing\\cloudcomputtingwebappgroup29\\xampp2\\apache\\bin\\httpd.exe -d D:/computer-science-repo/Third-Year/Cloud-Computing/CloudComputtingWebAppGroup29/xampp2/apache'
+[Wed Mar 10 15:38:06.597427 2021] [mpm_winnt:notice] [pid 22484:tid 628] AH00418: Parent: Created child process 22784
+[Wed Mar 10 15:38:07.919160 2021] [ssl:warn] [pid 22784:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 10 15:38:08.027679 2021] [ssl:warn] [pid 22784:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 10 15:38:08.070187 2021] [mpm_winnt:notice] [pid 22784:tid 644] AH00354: Child: Starting 150 worker threads.

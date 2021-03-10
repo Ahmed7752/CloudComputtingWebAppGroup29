@@ -26,7 +26,7 @@ goto endofperl
 @rem ';
 #!perl
 #line 29
-    eval 'exec D:\pc_storage_lfs\computer-science-original\First-Year\Database and Web App Dev\xampp2\perl\bin\perl.exe -S $0 ${1+"$@"}'
+    eval 'exec D:\computer-science-repo\Third-Year\Cloud-Computing\CloudComputtingWebAppGroup29\xampp2\perl\bin\perl.exe -S $0 ${1+"$@"}'
         if $running_under_some_shell;
 
 # perlivp v5.16.3
@@ -70,7 +70,7 @@ my $pass__total = 0;
 my $error_total = 0;
 my $tests_total = 0;
 
-my $perlpath = 'D:\pc_storage_lfs\computer-science-original\First-Year\Database and Web App Dev\xampp2\perl\bin\perl.exe';
+my $perlpath = 'D:\computer-science-repo\Third-Year\Cloud-Computing\CloudComputtingWebAppGroup29\xampp2\perl\bin\perl.exe';
 my $useithreads = 'define';
 
 print "## Checking Perl binary via variable '\$perlpath' = $perlpath.\n" if $opt{'p'};
