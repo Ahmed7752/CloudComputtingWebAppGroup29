@@ -24,9 +24,9 @@ if %errorlevel% == 9009 echo You do not have Perl in your PATH.
 if errorlevel 1 goto script_failed_so_exit_with_non_zero_val 2>nul
 goto endofperl
 @rem ';
-#!D:\computer-science-repo\Third-Year\Cloud-Computing\CloudComputtingWebAppGroup29\xampp2\perl\bin\perl.exe 
+#!C:\CloudComputtingWebAppGroup29\xampp2\perl\bin\perl.exe 
 #line 29
-    eval 'exec D:\computer-science-repo\Third-Year\Cloud-Computing\CloudComputtingWebAppGroup29\xampp2\perl\bin\perl.exe -S $0 ${1+"$@"}'
+    eval 'exec C:\CloudComputtingWebAppGroup29\xampp2\perl\bin\perl.exe -S $0 ${1+"$@"}'
 	if $running_under_some_shell;
 
 # pod2latex conversion program
