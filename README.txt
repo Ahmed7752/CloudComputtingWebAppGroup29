@@ -8,3 +8,6 @@ Password: CloudComputing@2021
 Emails:
 ahmed.mohamed3@mail.bcu.ac.uk
 arslan.badar@mail.bcu.ac.uk
+
+Access EC2 commands:
+ssh -i <path to key> ec2-user@ec2-34-226-219-122.compute-1.amazonaws.com
