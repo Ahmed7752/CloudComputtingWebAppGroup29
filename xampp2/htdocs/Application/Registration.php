@@ -12,7 +12,7 @@
         <title>Registration</title>  
     </head>  
     <body>  
-        <a class="navbar-brand" href="index.php"><img src="images/skan-logo.png" alt="website logo" class="logo"/></a>
+        <a class="navbar-brand" href="index.php"><img src="https://shopping-website-s3.s3.amazonaws.com/images/skan-logo.png" alt="website logo" class="logo"/></a>
         <a id="user-button" class="btn btn-info mx-4 " href="Admin_login.php">Admin Login</a>
         <div class="container">
             <div class="center1">

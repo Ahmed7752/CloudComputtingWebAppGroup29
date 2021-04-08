@@ -10,8 +10,8 @@ ahmed.mohamed3@mail.bcu.ac.uk
 arslan.badar@mail.bcu.ac.uk
 
 Access EC2 commands:
-ssh -i WebServerppkkeypair.ppk ec2-user@ec2-34-226-219-122.compute-1.amazonaws.com
+ssh -i C:\Users\Ahmed\Documents\computer-science-repo\Third-Year\CloudComputtingWebAppGroup29\WebServerpemkeypair.pem ec2-user@34.235.160.153
 
 Copy fiels to EC2 command:
 
-scp -i WebServerpemkeypair.pem -r D:\computer-science-repo\Third-Year\Cloud-Computing\CloudComputtingWebAppGroup29\xampp2\htdocs\Application\* ec2-user@ec2-34-226-219-122.compute-1.amazonaws.com:/var/www/html
+scp -i <path to private key pair> -r <path to host file> ec2-user@52.202.252.241:/var/www/html

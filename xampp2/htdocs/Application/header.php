@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="mastercss/style1.css">
 <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="index.php"><img src="images/skan-logo.png" class="logo"/>
+  <a class="navbar-brand" href="index.php"><img src="https://shopping-website-s3.s3.amazonaws.com/images/skan-logo.png" class="logo"/>
     </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

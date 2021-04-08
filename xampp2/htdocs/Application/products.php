@@ -15,7 +15,7 @@
       
     <div class="container">
         <div>
-            <img src="images/supermarket-aisle.jpg" class="container" />
+            <img src="https://shopping-website-s3.s3.amazonaws.com/images/supermarket-aisle.jpg" class="container" />
         </div>
     </div> 
     <div class="container">
