@@ -26,3 +26,5 @@ Connect to database command:
 
 mysql -h websitedatabase.cfv3cdy44ueb.us-east-1.rds.amazonaws.com -P 3306 -u admin -p
 
+EC2 folder containing website command:
+cd /var/www/html
