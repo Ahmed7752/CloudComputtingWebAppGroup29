@@ -1,5 +1,5 @@
 <?php
-  $hostname = "db-for-website.cfv3cdy44ueb.us-east-1.rds.amazonaws.com";
+  $hostname = "websitedatabase.cfv3cdy44ueb.us-east-1.rds.amazonaws.com";
   $username = "admin";
   $password = "CloudComputing";
   $dbname = "18124225";

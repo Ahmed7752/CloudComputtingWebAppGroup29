@@ -6,6 +6,7 @@ aws educate login:
 Password: CloudComputing@2021
 
 Emails:
+archibaldshingirai.makotose@mail.bcu.ac.uk
 ahmed.mohamed3@mail.bcu.ac.uk
 arslan.badar@mail.bcu.ac.uk
 
