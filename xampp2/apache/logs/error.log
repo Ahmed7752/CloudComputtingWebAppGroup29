@@ -2636,3 +2636,14 @@
 [Fri Mar 19 14:14:22.073831 2021] [php7:error] [pid 13236:tid 1920] [client ::1:50779] script 'C:/CloudComputtingWebAppGroup29/xampp2/htdocs/Application/update_test.php' not found or unable to stat, referer: http://localhost/Application/update.php
 [Fri Mar 19 14:14:34.085885 2021] [php7:error] [pid 13236:tid 1896] [client ::1:50780] script 'C:/CloudComputtingWebAppGroup29/xampp2/htdocs/Application/update_test.php' not found or unable to stat, referer: http://localhost/Application/update.php
 [Fri Mar 19 14:14:42.477754 2021] [php7:error] [pid 13236:tid 1896] [client ::1:50792] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in C:\\CloudComputtingWebAppGroup29\\xampp2\\htdocs\\Application\\update.php:27\nStack trace:\n#0 {main}\n  thrown in C:\\CloudComputtingWebAppGroup29\\xampp2\\htdocs\\Application\\update.php on line 27, referer: http://localhost/Application/update.php
+[Sun May 16 15:52:21.831092 2021] [ssl:warn] [pid 7464:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 16 15:52:21.956120 2021] [core:warn] [pid 7464:tid 572] AH00098: pid file D:/computer-science-repo/Third-Year/Cloud-Computing/CloudComputtingWebAppGroup29/xampp2/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 16 15:52:21.958120 2021] [ssl:warn] [pid 7464:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 16 15:52:23.262432 2021] [mpm_winnt:notice] [pid 7464:tid 572] AH00455: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 configured -- resuming normal operations
+[Sun May 16 15:52:23.262432 2021] [mpm_winnt:notice] [pid 7464:tid 572] AH00456: Apache Lounge VC15 Server built: Aug 15 2018 11:10:17
+[Sun May 16 15:52:23.262432 2021] [core:notice] [pid 7464:tid 572] AH00094: Command line: 'd:\\computer-science-repo\\third-year\\cloud-computing\\cloudcomputtingwebappgroup29\\xampp2\\apache\\bin\\httpd.exe -d D:/computer-science-repo/Third-Year/Cloud-Computing/CloudComputtingWebAppGroup29/xampp2/apache'
+[Sun May 16 15:52:23.265432 2021] [mpm_winnt:notice] [pid 7464:tid 572] AH00418: Parent: Created child process 16284
+[Sun May 16 15:52:24.288665 2021] [ssl:warn] [pid 16284:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 16 15:52:24.386688 2021] [ssl:warn] [pid 16284:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 16 15:52:24.420695 2021] [mpm_winnt:notice] [pid 16284:tid 644] AH00354: Child: Starting 150 worker threads.
+[Sun May 16 16:17:20.858465 2021] [mpm_winnt:crit] [pid 16284:tid 644] AH02538: Child: Parent process exited abruptly. Child process is ending
