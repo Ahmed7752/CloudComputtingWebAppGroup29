@@ -1,5 +1,5 @@
 <?php
-include_once 'connect.php';
+include_once ('connect.php');
 
 
  $sql = "SELECT * FROM products ORDER BY id ASC";
@@ -9,11 +9,11 @@ include_once 'connect.php';
         // output data of each row
 
 ?>
-<?php   include("bootstrap.php")    ?>
+<?php   include  ("bootstrap.php")    ?>
                 <div class="product-cards">
                 <div class="row text-center py-5">
                                             <?php
-                        while($product =$result->fetch_assoc()) {
+                        while($product = $result->fetch_assoc()) {
                 ?>
 
                 <div class="col-md-3 col-sm-6 col-6 my-3 my-md-0">
