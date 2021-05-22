@@ -1,5 +1,5 @@
 <?php
-  include("bootstrap.php")
+  include ("bootstrap.php")
   ?>
 <!DOCTYPE html>
 <html>
@@ -9,6 +9,6 @@
 <body>
     <h1>My First Heading</h1>
     <div class="container">
-             <?php  include("product-data.php")    ?>
+             <?php  include ("product-data.php")    ?>
         </div>
 </html>

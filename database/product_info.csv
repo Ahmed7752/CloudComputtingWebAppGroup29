@@ -1,0 +1,6 @@
+id,product_title,image,price,product_desc
+1,"tesco milk",./images/tesco-milk.jpg,2.15,"From British Farms. Supporting our trusted dairy farmers."
+2,"Tesco Mashed Potato 900G",./images/mash-potato.jpg,1.00,"Mashed potato seasoned with salt and white pepper."
+3,"Soft White Medium Bread",./images/tesco-bread.jpg,1.00,"our experts bakers have been baking bread for 130 years"
+4,cheese,./images/tesco-cheese.jpg,2.21,"100% British milk. Hand-selected cheese for a rich taste."
+5,"Nestle Cheerios Cereal",./images/cereal.jpg,3.00,"delicious taste of NESTLE MULTIGRAIN CHEERIOS"
