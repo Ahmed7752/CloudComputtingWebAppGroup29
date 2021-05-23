@@ -29,3 +29,64 @@ mysql -h websitedatabase.cfv3cdy44ueb.us-east-1.rds.amazonaws.com -P 3306 -u adm
 
 EC2 folder containing website command:
 cd /var/www/html
+
+
+
+
+
+
+###################################
+try this code to install php v7
+
+link obtained below 
+https://intellipaat.com/community/6543/how-to-install-php-7-on-ec2-t2-micro-instance-running-amazon-linux-distro
+#################################
+
+# automatically includes php70-cli php70-common php70-json php70-process php70-xml
+
+sudo yum install php70
+
+#####################################
+then run the following ones individually 
+####################################
+# Install a few commonly used php packages
+
+sudo yum install php70-gd
+
+sudo yum install php70-imap
+
+sudo yum install php70-mbstring
+
+sudo yum install php70-mysqlnd
+
+sudo yum install php70-opcache
+
+sudo yum install php70-pdo
+
+sudo yum install php70-pecl-apcu
+
+##################################################
+2. Modify DirectoryIndex to include index.php
+############################################
+sudo nano /etc/httpd/conf/httpd.conf
+
+################################
+change 
+
+<IfModule dir_module>
+
+    DirectoryIndex index.html
+
+</IfModule>
+
+
+to become
+
+<IfModule dir_module>
+
+    DirectoryIndex index.html index.php
+
+</IfModule>
+
+
+####################################
