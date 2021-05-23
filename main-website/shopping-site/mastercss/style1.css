@@ -1,5 +1,5 @@
 .logo{
-    margin-left: 46% ; 
+    margin-left: 46% ;
     margin-right: auto;
     width: 130px ;
     height: 100px;
@@ -10,7 +10,7 @@
 }
 
 .banner{
-    margin-left: 20% ; 
+    margin-left: 20% ;
     margin-right: auto;
     width: 400px;
     height: 130px;
@@ -27,28 +27,28 @@ img.sainsburys{
     height: auto;
     border-radius: 90%;
 
-    
+
 }
 img.morrisons{
     width: 150px;
     height: auto;
     border-radius: 20%;
 
-    
+
 }
 img.Lidl{
     width: 150px;
     height: auto;
     border-radius: 90%;
 
-    
+
 }
 img.asda{
     width: 150px;
     height: auto;
     border-radius: 50%;
 
-    
+
 }
 img.tesco{
 
@@ -56,7 +56,7 @@ img.tesco{
     height: auto;
     border-radius: 90%;
 
-    
+
 }
 
 .fa-star,
@@ -68,7 +68,7 @@ img.tesco{
 .nav-item{
     display: block;
     padding-left: 40px;
-    
+
 }
 .empty_cart{
     display: block;
@@ -99,6 +99,10 @@ img.tesco{
     margin: 20px;
 }
 #home-button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#log-out-button{
     margin-bottom: 20px;
     margin-top: 20px;
 }
