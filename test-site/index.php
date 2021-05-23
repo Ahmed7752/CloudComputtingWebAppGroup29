@@ -9,6 +9,6 @@
 <body>
     <h1>My First Heading</h1>
     <div class="container">
-             <?php  include ("product-data.php")    ?>
+             <?php  include ("welcome.php")    ?>
         </div>
 </html>
