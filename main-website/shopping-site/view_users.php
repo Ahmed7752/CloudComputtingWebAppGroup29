@@ -9,8 +9,8 @@
     </head>
     <body>
         <div class="table-scrol">
-        <div class="center-form"><a id="home-button" class="btn btn-info mx-4 " href="index.php">Home</a></div>
-        <div class="center-form"><h1>All the Users</h1></div> 
+        <div class="center-form"><a id="log-out-button" class="btn btn-info mx-4 " href="admin_login.php">logout</a></div>
+        <div class="center-form"><h1>All the Users</h1></div>
             <div class="container">
                 <div class="table-responsive">
                     <table class="table table-bordered table-hover">
