@@ -2647,3 +2647,15 @@
 [Sun May 16 15:52:24.386688 2021] [ssl:warn] [pid 16284:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sun May 16 15:52:24.420695 2021] [mpm_winnt:notice] [pid 16284:tid 644] AH00354: Child: Starting 150 worker threads.
 [Sun May 16 16:17:20.858465 2021] [mpm_winnt:crit] [pid 16284:tid 644] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue May 25 09:25:06.626048 2021] [ssl:warn] [pid 12004:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 25 09:25:06.811090 2021] [core:warn] [pid 12004:tid 628] AH00098: pid file D:/computer-science-repo/Third-Year/Cloud-Computing/CloudComputtingWebAppGroup29/xampp2/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 25 09:25:06.813090 2021] [ssl:warn] [pid 12004:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 25 09:25:08.717523 2021] [mpm_winnt:notice] [pid 12004:tid 628] AH00455: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 configured -- resuming normal operations
+[Tue May 25 09:25:08.717523 2021] [mpm_winnt:notice] [pid 12004:tid 628] AH00456: Apache Lounge VC15 Server built: Aug 15 2018 11:10:17
+[Tue May 25 09:25:08.717523 2021] [core:notice] [pid 12004:tid 628] AH00094: Command line: 'd:\\computer-science-repo\\third-year\\cloud-computing\\cloudcomputtingwebappgroup29\\xampp2\\apache\\bin\\httpd.exe -d D:/computer-science-repo/Third-Year/Cloud-Computing/CloudComputtingWebAppGroup29/xampp2/apache'
+[Tue May 25 09:25:08.720525 2021] [mpm_winnt:notice] [pid 12004:tid 628] AH00418: Parent: Created child process 10848
+[Tue May 25 09:25:09.548712 2021] [ssl:warn] [pid 10848:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 25 09:25:09.675741 2021] [ssl:warn] [pid 10848:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 25 09:25:09.709749 2021] [mpm_winnt:notice] [pid 10848:tid 652] AH00354: Child: Starting 150 worker threads.
+[Tue May 25 09:26:14.897910 2021] [php7:warn] [pid 10848:tid 1904] [client 127.0.0.1:50310] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\\computer-science-repo\\Third-Year\\Cloud-Computing\\CloudComputtingWebAppGroup29\\xampp2\\htdocs\\Application\\connection.php on line 7, referer: http://localhost/
+[Tue May 25 09:26:14.898910 2021] [php7:warn] [pid 10848:tid 1904] [client 127.0.0.1:50310] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\\computer-science-repo\\Third-Year\\Cloud-Computing\\CloudComputtingWebAppGroup29\\xampp2\\htdocs\\Application\\connection.php on line 7, referer: http://localhost/

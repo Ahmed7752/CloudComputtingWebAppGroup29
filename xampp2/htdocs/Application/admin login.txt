@@ -1,2 +1,0 @@
-username: ahmed_admin
-password: 123
